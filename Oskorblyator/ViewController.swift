@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                 return
             }
             else {
-                self.textLable.text = quote?.quote
+                self.textLable.text = quote?.insult
             }
         }
     }

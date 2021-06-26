@@ -25,7 +25,7 @@ class Networker {
     }
     
     func getQuote(completion: @escaping (Quote?, Error?) -> (Void)) {
-        let url = URL(string: "https://evilinsult.com/generate_insult.php?lang=ru&amp;type=json")!
+        let url = URL(string: "https://evilinsult.com/generate_insult.php?lang=en&type=json")!
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"

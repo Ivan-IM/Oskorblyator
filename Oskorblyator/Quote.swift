@@ -7,6 +7,13 @@
 
 import Foundation
 
-struct Quote: Codable {
-  let quote: String
+struct Quote: Decodable {
+    let number: String
+    let language: String
+    let insult: String
+    let created: String
+    let shown: String
+    let createdby: String
+    let active: String
+    let comment: String
 }
