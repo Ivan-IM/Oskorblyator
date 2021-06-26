@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Quote: Decodable {
+struct SimpleNetworkStruct: Decodable {
     let number: String
     let language: String
     let insult: String
